@@ -4,7 +4,7 @@ from tkinter import *
 class Main(Frame):
     def __init__(self, root):
         super(Main, self).__init__(root)
-        self.build()
+        self.build(tow)
 
     def build(self):
         pass
@@ -13,7 +13,7 @@ class Main(Frame):
         pass
 
     def update():
-       pass
+       pas
 
 
 if __name__ == '__main__':
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     root["bg"] = "#000"
     root.geometry("485x550+200+200")
     root.title("Калькулятор")
-    root.resizable(False, False)
-    app = Main(root)
+    root.resizable(True, False)
+    app = Main(sqrt)
     app.pack()
     root.mainloop()
